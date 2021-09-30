@@ -8,6 +8,10 @@
   font-family: 'Hind Siliguri', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body header {
   margin-top: 40px;
 }
@@ -40,21 +44,30 @@ body header .header_pic .student_gender {
   padding: 2px;
 }
 
-body header .logo_heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 body header .logo img {
   width: 100%;
 }
 
+body header .heading {
+  margin-bottom: 20px;
+}
+
 body header .heading h1 {
   font-size: 36px;
+}
+
+body header .heading div {
+  width: 60%;
+  text-align: center;
+}
+
+body header .heading div p {
+  font-weight: 600;
+}
+
+body header .heading div span {
+  margin: 0 !important;
+  text-decoration: underline;
 }
 
 body header .school_madrasa .check_school p {
@@ -122,5 +135,134 @@ body .form_fill_up .reg_signature .signature_item p::after {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+body .admit_card_header {
+  margin-top: 100px;
+}
+
+body .admit_card_header .passport {
+  border: 1px solid #000;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .admit_card_header .passport p {
+  text-align: center;
+}
+
+body .admit_card_header .logo_heading .logo img {
+  width: 100%;
+}
+
+body .admit_card_header .logo_heading .heading {
+  margin-bottom: 20px;
+}
+
+body .admit_card_header .logo_heading .heading h1 {
+  font-size: 36px;
+}
+
+body .admit_card_header .logo_heading .heading div {
+  width: 60%;
+  text-align: center;
+}
+
+body .admit_card_header .logo_heading .heading div p {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+body .admit_card_header .logo_heading .heading div span {
+  margin: 0 !important;
+  text-decoration: underline;
+  display: block;
+}
+
+body .admit_card_header .logo_heading .heading div h3 {
+  color: white;
+  background-color: #00A94E;
+  display: inline-block;
+  font-size: 20px;
+  padding: 8px 25px;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+body .admit_card_header .reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .admit_card_header .reg h3 {
+  color: white;
+  background-color: #00A94E;
+  display: inline-block;
+  font-size: 22px;
+  padding: 8px 25px;
+  border-radius: 30px;
+}
+
+body .admit_card_header .school_madrasa .office_fill {
+  margin: 10px 0;
+}
+
+body .admit_card_header .school_madrasa .office_fill .input-group-text {
+  background-color: #00A94E;
+  color: white;
+}
+
+body .admit_card_header .school_madrasa .check_school p {
+  border: 1px solid #000;
+  margin-bottom: 0 !important;
+  padding: 5px 8px;
+  font-weight: bold;
+}
+
+body .admit_card_header .school_madrasa .school_madrasa_item {
+  border: 1px solid #000;
+  border-top: none;
+  padding: 5px 8px;
+}
+
+body .admit_fill_up .note {
+  text-align: right;
+  font-weight: 600;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+body .admit_fill_up .admit_signature {
+  text-align: right;
+  margin-top: 20px;
+}
+
+body .admit_fill_up .admit_signature p {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  font-weight: 600;
+}
+
+body .admit_fill_up .admit_signature p::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  top: 0;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

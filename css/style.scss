@@ -9,6 +9,7 @@
     font-family: 'Hind Siliguri', sans-serif;
 }
 body {
+    overflow-x: hidden;
     header {
         margin-top: 40px;
 
@@ -33,8 +34,8 @@ body {
             }
         }
         .logo_heading {
-            display: flex;
-            align-items: center;
+            // display: flex;
+            // align-items: center;
         }
         .logo {
             img {
@@ -42,9 +43,20 @@ body {
             }
         }
         .heading {
-
+            margin-bottom: 20px;
             h1 {
                 font-size: 36px;
+            }
+            div {
+                width: 60%;
+                text-align: center;
+                p {
+                    font-weight: 600;
+                }
+                span {
+                    margin: 0 !important;
+                    text-decoration: underline;
+                }
             }
         }
         .school_madrasa {
@@ -114,6 +126,117 @@ body {
                         top: 0;
                         left: 0;
                     }
+                }
+            }
+        }
+    }
+    .admit_card_header {
+        margin-top: 100px;
+        .passport {
+            border: 1px solid #000;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+                p { 
+                    text-align: center;
+                }
+            }
+        .logo_heading {
+            .logo {
+                img {
+                    width: 100%;
+                }
+            }
+            .heading {
+                margin-bottom: 20px;
+                h1 {
+                    font-size: 36px;
+                }
+                div {
+                    width: 60%;
+                    text-align: center;
+                    p {
+                        font-weight: 600;
+                        margin-bottom: 0;
+                    }
+                    span {
+                        margin: 0 !important;
+                        text-decoration: underline;
+                        display: block;
+                    }
+                    h3 {
+                        color: white;
+                        background-color: #00A94E;
+                        display: inline-block;
+                        font-size: 20px;
+                        padding: 8px 25px;
+                        border-radius: 30px;
+                        margin: 20px 0;
+                    }
+                }
+            }
+        }
+        .reg {
+            display: flex;
+            justify-content: center;
+            h3 {
+                color: white;
+                background-color: #00A94E;
+                display: inline-block;
+                font-size: 22px;
+                padding: 8px 25px;
+                border-radius: 30px;
+                
+            }
+        }
+        .school_madrasa {
+            .office_fill {
+                margin: 10px 0;
+                .input-group-text {
+                    background-color: #00A94E;
+                    color: white;
+                }
+            }
+            .check_school {
+                p {
+                    border: 1px solid #000;
+                    margin-bottom: 0 !important;
+                    padding: 5px 8px;
+                    font-weight: bold;
+                }
+            }
+            .school_madrasa_item {
+                border: 1px solid #000;
+                border-top: none;
+                padding: 5px 8px;
+            }
+        }
+    }
+    .admit_fill_up {
+        .note {
+            text-align: right;
+            font-weight: 600;
+            padding: 5px;
+            margin-top: 20px;
+        }
+        .admit_signature {
+            text-align: right;
+            margin-top: 20px;
+            p {
+                position: relative;
+                display: inline-block;
+                padding: 5px;
+                font-weight: 600;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    left: 0;
+                    top: 0;
+                    background-color: black;
                 }
             }
         }
