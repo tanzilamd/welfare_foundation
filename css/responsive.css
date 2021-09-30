@@ -1,1 +1,47 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+@media (max-width: 576px) {
+  .order_1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .order_2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .order_3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .order_4 {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .col-form-label {
+    text-align: left !important;
+  }
+  .last_signature {
+    text-align: left !important;
+  }
+  .signature_item {
+    padding: 20px 0;
+  }
+  header .heading div {
+    text-align: left !important;
+  }
+  header .school_madrasa {
+    margin-bottom: 20px;
+  }
+  .admit_card_header .heading div {
+    width: 100% !important;
+  }
+  .admit_card_header .heading div p {
+    text-align: left;
+  }
+  .admit_card_header .heading div span {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

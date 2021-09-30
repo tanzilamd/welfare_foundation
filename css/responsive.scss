@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+    .order_1 {
+        order: 1;
+    }
+    .order_2 {
+        order: 2;
+    }
+    .order_3 {
+        order: 3;
+    }
+    .order_4 {
+        order: 4;
+    }
+
+
+    .col-form-label {
+        text-align: left !important;
+    }
+
+    .last_signature {
+        text-align: left !important;
+    }
+    .signature_item {
+        padding: 20px 0;
+    }
+    header {
+        .heading {
+            div {
+                text-align: left !important;
+            }
+        }
+        .school_madrasa {
+            margin-bottom: 20px;
+        }
+    }
+    .admit_card_header {
+        .heading {
+            div {
+                width: 100% !important;
+                p {
+                    text-align: left;
+                }
+                span {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
