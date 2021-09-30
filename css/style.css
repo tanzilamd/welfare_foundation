@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Noto Serif Bengali', serif;
+}
+
+body header {
+  margin-top: 40px;
+}
+
+body header .header_pic {
+  text-align: center;
+}
+
+body header .header_pic .passport {
+  border: 1px solid #000;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .header_pic .passport p {
+  text-align: center;
+}
+
+body header .header_pic .student_gender {
+  border: 1px solid #000;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+body header .logo_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .logo img {
+  width: 100%;
+}
+
+body header .heading h1 {
+  font-size: 36px;
+}
+
+body header .school_madrasa .check_school p {
+  border: 1px solid #000;
+  margin-bottom: 0 !important;
+  padding: 5px 8px;
+  font-weight: bold;
+}
+
+body header .school_madrasa .school_madrasa_item {
+  border: 1px solid #000;
+  border-top: none;
+  padding: 5px 8px;
+}
+
+body header .reg {
+  text-align: center;
+}
+
+body header .reg h3 {
+  background-color: #00A94E;
+  border-radius: 30px;
+  padding: 8px 25px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+}
+
+body header .office_fill_container {
+  border: 1px solid #000;
+  padding: 5px 15px;
+  position: relative;
+  text-align: center;
+}
+
+body header .office_fill_container h5 {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  color: #00A94E;
+}
+/*# sourceMappingURL=style.css.map */
